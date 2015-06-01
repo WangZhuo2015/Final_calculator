@@ -65,13 +65,13 @@
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mg6-4c-S4P">
                                 <rect key="frame" x="240" y="130" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91414141414141414" green="0.69765994207408077" blue="0.22354145696297306" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.76129488901645348" blue="0.23374828012248383" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="÷">
                                     <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnDTap" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JvA-Bz-cnB"/>
+                                    <action selector="btnDTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jLT-5b-xsC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n1b-4l-vsr">
@@ -104,18 +104,6 @@
                                     <action selector="NUMbtnTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="c84-Ni-mRm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kJR-ck-W32">
-                                <rect key="frame" x="240" y="370" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91414141414141414" green="0.69765994207408077" blue="0.22354145696297306" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="-">
-                                    <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnSTap" destination="vXZ-lx-hvc" eventType="touchUpInside" id="np7-Nl-NmS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="owg-R7-uSW">
                                 <rect key="frame" x="0.0" y="130" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -129,7 +117,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t6K-nU-Xsu">
                                 <rect key="frame" x="240" y="450" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91414141414141414" green="0.69765994207408077" blue="0.22354145696297306" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.7633454101361774" blue="0.24195320869736647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="="/>
                                 <connections>
@@ -179,14 +167,14 @@
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HlX-VY-QHh">
                                 <rect key="frame" x="240" y="210" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91414141414141414" green="0.69765994207408077" blue="0.22354145696297306" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.7633454101361774" blue="0.24195320869736647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
                                 <state key="normal" title="X">
                                     <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnMTap" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Rg-ig-vvt"/>
+                                    <action selector="btnMTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XEc-zP-H5p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GOn-oE-bal">
@@ -197,18 +185,6 @@
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="NUMbtnTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MdX-XL-1Sa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w0u-R1-NGQ">
-                                <rect key="frame" x="240" y="290" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91414141414141414" green="0.69765994207408077" blue="0.22354145696297306" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="+">
-                                    <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnATap" destination="vXZ-lx-hvc" eventType="touchUpInside" id="318-3R-Zmi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Project:Final_Calculator           By 王卓" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J4N-gf-wAP">
@@ -228,6 +204,30 @@
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="70"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                             </textField>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w0u-R1-NGQ">
+                                <rect key="frame" x="240" y="370" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.7633454101361774" blue="0.24195320869736647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnATap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hNo-Q8-w2S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kJR-ck-W32">
+                                <rect key="frame" x="240" y="290" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.76334541010000001" blue="0.24195320870000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DlV-xz-FU9"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -237,7 +237,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="cmx-P8-77z"/>
             </objects>
-            <point key="canvasLocation" x="48" y="221"/>
+            <point key="canvasLocation" x="76" y="203"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
